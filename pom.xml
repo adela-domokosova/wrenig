@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.wrensecurity</groupId>
         <artifactId>wrensec-parent</artifactId>
-        <version>4.1.1</version>
+        <version>4.2.0</version>
     </parent>
 
     <groupId>org.wrensecurity.wrenig</groupId>
@@ -118,6 +118,13 @@
     </issueManagement>
 
     <properties>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.java.jacoco.reportPaths>target/jacoco.xml</sonar.java.jacoco.reportPaths>
+        <sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
+        <sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
+        <sonar.java.spotbugs.reportPaths>target/spotbugs.xml</sonar.java.spotbugs.reportPaths>
+        <sonar.organization>adela-domokosova</sonar.organization>
+
         <pgpVerifyKeysVersion>1.8.4</pgpVerifyKeysVersion>
         <wrensec.commons.version>22.6.1</wrensec.commons.version>
 
